@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    text-align: center;
+    margin: 20px;
+}
+
+.content img {
+    width: 80%;
+    max-width: 600px;
+}
+
+.video {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: violet;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+
+
+.list {
+   
+   
+    list-style-type: circle;
+    text-align: left;
+
+   
+  
+}
