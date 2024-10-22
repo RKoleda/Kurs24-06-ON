@@ -1,0 +1,12 @@
+.profile-page {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
