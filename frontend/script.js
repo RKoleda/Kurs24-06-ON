@@ -1,5 +1,5 @@
 function getTodos() {
-    fetch('<URL>') // Ändere die URL hier!
+    fetch("tttp://127.0..0.1:4000") // Ändere die URL hier!
         .then(response => response.json())
         .then(json => loadTodos(json))
 }
