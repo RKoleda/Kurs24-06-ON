@@ -1,0 +1,108 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+    color: #3b0202;
+    list-style-type: none;
+}
+
+/* Header */
+header {
+    background-color: #182466;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+    margin: 0;
+}
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section */
+section {
+    padding: 20px;
+    background-color: #ECF0F1;
+    text-align: center;
+}
+section h2 {
+    color: #504c2c;
+    text-align: center;
+}
+section p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+section img {
+    max-width: 20%;
+    height: auto;
+}
+
+section.gallery img:hover {
+    transform: scale(1.4);
+}
+
+.belege-section {
+    padding: 20px;
+    background-color: #ECF0F1;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    list-style-type: none;
+}
+
+.liste-section {
+   list-style-type: none;
+}
+/* Div */
+.div {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.div h3 {
+    color: #2C3E50;
+    margin-top: 0;
+}
+.div p {
+    color: #333;
+    margin-bottom: 0;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    margin: 0;
+}
+footer a {
+    color: #09115e;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}

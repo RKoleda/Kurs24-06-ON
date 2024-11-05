@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Übung</title>
+</head>
+<body>
+    <h1>JavaScript Aufgaben Zusammenfassung</h1>
+
+    <script>
+        // Aufgabe 2: JavaScript einbinden
+        console.log("JavaScript läuft!");
+
+        // Aufgabe 3: Variablen und Datentypen
+        let name = "Max"; // String
+        const alter = 25; // Number (Konstante)
+        var istStudent = true; // Boolean
+
+        console.log(name); // Max
+        console.log(alter); // 25
+        console.log(istStudent); // true
+
+        // Aufgabe 4: Datentypen
+        let zahl = 42; // Number
+        let text = "Hallo Welt"; // String
+        let istWahr = false; // Boolean
+        let fruechte = ["Apfel", "Banane", "Orange"]; // Array
+        let person = { name: "Max", alter: 30, beruf: "Entwickler" }; // Object
+
+        console.log(zahl);
+        console.log(text);
+        console.log(istWahr);
+        console.log(fruechte);
+        console.log(person);
+
+        // Aufgabe 5: Operatoren
+        let zahl1 = 5;
+        let zahl2 = '5';
+
+        console.log(zahl1 == zahl2);  // true, da == nur die Werte vergleicht
+        console.log(zahl1 === zahl2); // false, da === auch den Datentyp prüft
+
+        // Aufgabe 6: Bedingungen (If-Else)
+        let punkte = 85;
+        if (punkte >= 90) {
+            console.log("Ausgezeichnet");
+        } else if (punkte >= 75) {
+            console.log("Gut gemacht");
+        } else {
+            console.log("Mehr Übung erforderlich");
+        }
+
+        // Aufgabe 7: Schleifen
+        // for-Schleife
+        for (let i = 1; i <= 10; i++) {
+            console.log(i);
+        }
+
+        // while-Schleife
+        let j = 0;
+        while (j <= 5) {
+            console.log(j);
+            j++;
+        }
+
+        // Aufgabe 8: Funktionen
+        function begruessung(name) {
+            return "Hallo, " + name + "!";
+        }
+
+        console.log(begruessung("Anna"));
+        console.log(begruessung("Lukas"));
+
+        // Aufgabe 9: Arrays und Objekte
+        // Array
+        let lieblingsFruechte = ["Apfel", "Banane", "Erdbeere"];
+        console.log(lieblingsFruechte[0]); // Apfel
+
+        // Objekt
+        let person2 = {
+            name: "Sarah",
+            alter: 28,
+            beruf: "Designer"
+        };
+        console.log(person2.name); // Sarah
+
+        // Aufgabe 10: Konsolenausgabe
+        let zahl3 = 15;
+        if (zahl3 > 10) {
+            console.log("Die Zahl ist größer als 10.");
+        }
+    </script>
+
+</body>
+</html>
